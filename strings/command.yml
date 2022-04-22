@@ -43,21 +43,21 @@ UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
 PAUSE_COMMAND : ["pause", "cpause"]
 RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
+MUTE_COMMAND : ["vcmute", "cmute"]
+UNMUTE_COMMAND : ["vcunmute", "cunmute"]
 STOP_COMMAND : ["stop", "end", "cstop", "cend"]
 SKIP_COMMAND : ["skip", "cskip"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["restart"]
+RESTART_COMMAND : ["vcrestart"]
 
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+ADDSUDO_COMMAND : ["addsumdo"]
+DELSUDO_COMMAND : ["delsumdo"]
+SUDOUSERS_COMMAND : ["sumdolist"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast"]
@@ -90,13 +90,13 @@ REBOOT_COMMAND : ["reboot"]
 AUTOEND_COMMAND : ["autoend"]
 
 #Private Bot Mode
-AUTHORIZE_COMMAND : ["authorize"]
-UNAUTHORIZE_COMMAND : ["unauthorize"]
+AUTHORIZE_COMMAND : ["auth"]
+UNAUTHORIZE_COMMAND : ["unauth"]
 AUTHORIZED_COMMAND : ["authorized"]
 
 #Block Users Command
-BLOCK_COMMAND : ["block"]
-UNBLOCK_COMMAND : ["unblock"]
+BLOCK_COMMAND : ["blomk"]
+UNBLOCK_COMMAND : ["unblomk"]
 BLOCKED_COMMAND : ["blockedusers"]
 
 #sPEEDTEST
